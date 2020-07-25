@@ -1,0 +1,22 @@
+.input {
+  &-field {
+    color: hsl(0, 0%, 20%);
+    height: calc(1.8em + 0.75rem + 2px);
+    border-color: hsl(0, 0%, 80%);
+
+    &:focus {
+      color: hsl(0, 0%, 20%);
+      box-shadow: none;
+      border: 2px solid rgba(43, 150, 136, 0.25);
+    }
+  }
+
+  &-error {
+    margin-top: 0.1rem;
+    font-size: 80%;
+
+    &-message {
+      margin-top: 0.1rem !important;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.home {
+  &-body {
+    height: 91vh;
+  }
+
+  &-hex {
+    &-name {
+      font-size: 3px;
+      color: white !important;
+    }
+  }
+}
